@@ -1,25 +1,13 @@
-# ReduxSimpleStarter
+# BookList_App
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This is a simple web app based on React and Redux.
+In this app, A list of books are provided and user can select any book and 
+view the details of that book.
 
-### Getting Started
+## Use of React
+> React is used to display the GUI part to the user. 
+> User is not familier with the internal workings.
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+## Use of Redux
+> Redux is used to manage all the internal states in a single state object.
+> This makes managing states easily because of it's global/application level.
